@@ -14,20 +14,29 @@
 
         <div class="article__content {{ without-image }}">
           <div class="article-tags">
-          {% if post.tags.size >= 1 %}
+          {% if post.tags contains 'job' %}
+            {% assign job_posts = site.posts | where: "tags", "job" %}
+            {% assign most_recent_job = job_posts | first %}
+            <div class="article-tags__box">
+              {% if post.date == most_recent_job.date %}
+                <span class="article__tag role-current">CURRENT ROLE</span>
+              {% else %}
+                <span class="article__tag role-past">PAST ROLE</span>
+              {% endif %}
+            </div>
+          {% elsif post.tags.size >= 1 %}
             <div class="article-tags__box">
               {% for tag in post.tags %}
                 <a href="{{ site.baseurl }}/tag/{{ tag | downcase | replace: " ", "-" }}" class="article__tag">{{ tag }}</a>
               {% endfor %}
             </div>
-          {% else %}
           {% endif %}
           </div>
-      
+
           <h2 class="article__title">
             <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
           </h2>
-      
+
           <p class="article__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 185 }}{% endif %}</p>
             <div class="article__meta">
               {% if post.start_date_range and post.end_date_range %}
@@ -43,7 +52,7 @@
         </div>
 
       </div>
-      
+
   </div>
 </div>
 <!-- end article -->
