@@ -4,7 +4,7 @@ modules = ["web", "nodejs-20", "ruby-3.2"]
 channel = "stable-25_05"
 
 [workflows]
-runButton = "Jekyll Serve Alt Port"
+runButton = "Jekyll Serve"
 
 [[workflows.workflow]]
 name = "Jekyll Serve"
@@ -15,27 +15,6 @@ mode = "sequential"
 task = "shell.exec"
 args = "bundle exec jekyll serve --host=0.0.0.0 --port=4000"
 
-[[workflows.workflow]]
-name = "Jekyll Serve Alt Port"
-author = 33561697
-mode = "sequential"
-
-[[workflows.workflow.tasks]]
-task = "shell.exec"
-args = "pkill -f jekyll || true && bundle exec jekyll serve --host=0.0.0.0 --port=8080 --force_polling --verbose"
-
-[[ports]]
-localPort = 3000
-externalPort = 3000
-
 [[ports]]
 localPort = 4000
 externalPort = 80
-
-[[ports]]
-localPort = 8080
-externalPort = 8080
-
-[[ports]]
-localPort = 35729
-externalPort = 3001
