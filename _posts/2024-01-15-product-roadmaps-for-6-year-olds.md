@@ -3,7 +3,7 @@
 layout: post
 title: "Product Road Maps for 6 Year Olds"
 date: 2024-01-15 10:00:00 +0000
-tags: job
+tags: work
 description: "How I learned to communicate complex product strategy through simple analogies and storytelling"
 start_date_range: "2019"
 end_date_range: "2022"

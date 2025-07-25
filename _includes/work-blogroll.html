@@ -1,0 +1,8 @@
+
+<div class="work-blogroll__item">
+  <div class="work-blogroll__date">{{ post.date | date: "%b %Y" }}</div>
+  <h3 class="work-blogroll__title">
+    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  </h3>
+  <p class="work-blogroll__excerpt">{{ post.excerpt | strip_html | truncatewords: 15 }}</p>
+</div>

@@ -23,3 +23,24 @@ layout: default
 	{% endif %}
 	</div>
 </div>
+
+<div class="container">
+	<div class="row">
+		<div class="col col-12">
+			{% assign work_posts = site.posts | where: "tags", "work" %}
+			{% if work_posts.size > 0 %}
+			<div class="work-blogroll">
+				<div class="work-blogroll__header">
+					<h4>The Work</h4>
+					<a href="{{ site.baseurl }}/work/" class="view-all">View All →</a>
+				</div>
+				<div class="work-blogroll__list">
+					{% for post in work_posts limit: 4 %}
+						{% include work-blogroll.html %}
+					{% endfor %}
+				</div>
+			</div>
+			{% endif %}
+		</div>
+	</div>
+</div>
