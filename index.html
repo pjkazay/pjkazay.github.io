@@ -27,7 +27,7 @@ layout: default
 <div class="container">
 	<div class="row">
 		<div class="col col-12">
-			{% assign work_posts = site.posts | where: "tags", "work" %}
+			{% assign work_posts = site.posts | where_exp: "post", "post.tags contains 'work'" %}
 			{% if work_posts.size > 0 %}
 			<div class="work-blogroll">
 				<div class="work-blogroll__header">
