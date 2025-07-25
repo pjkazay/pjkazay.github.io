@@ -15,11 +15,11 @@ layout: default
 
 <div class="container">
 	<div class="row">
-	{% if site.posts.size > 0 %}
-		{% for post in paginator.posts %}
+	{% assign job_posts = site.posts | where: "tags", "job" %}
+	{% if job_posts.size > 0 %}
+		{% for post in job_posts %}
 			{% include article-content.html %}
 		{% endfor %}
 	{% endif %}
 	</div>
 </div>
-{% include pagination.html %}

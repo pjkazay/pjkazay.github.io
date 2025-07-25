@@ -6,5 +6,5 @@ start_date_range: Jan-'22
 end_date_range: Dec-'23
 description: 
 image: 03.jpg
-tags: [Work]
+tags: [job]
 ---

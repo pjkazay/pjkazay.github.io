@@ -6,5 +6,5 @@ start_date_range: Oct-'19
 end_date_range: Mar-'20
 description: 
 image: 02.jpg
-tags: [Work]
+tags: [job]
 ---
