@@ -1,13 +1,9 @@
-
 ---
 layout: post
-title:  Business Analyst
-date:   2018-07-05 15:01:35 +0300
-image:  02.jpg
-tags:   Resources
+title: Principal PM, Operations
+date: 2018-07-23 00:00:00 +0300
+date_range: Jan-'22
+description: 
+image: 03.jpg
+tags: [Work]
 ---
-ConsultingFirm - Top-tier management consulting
-
-- Conducted market research and competitive analysis for client product strategy
-- Built financial models and forecasts to support business case development  
-- Presented findings to C-level executives and stakeholders

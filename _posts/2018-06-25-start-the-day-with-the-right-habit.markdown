@@ -2,6 +2,7 @@
 layout: post
 title:  Principal PM, Operations
 date:   2018-07-24 15:01:35 +0300
+date_range: Jul-'18
 image:  06.jpg
 tags:   Style
 ---

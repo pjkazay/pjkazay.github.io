@@ -1,12 +1,9 @@
 ---
 layout: post
-title:  Product Manager
-date:   2018-07-19 15:01:35 +0300
-image:  04.jpg
-tags:   Life
+title: Senior PM, Product Infrastructure
+date: 2018-07-17 00:00:00 +0300
+date_range: Mar-'20
+description: 
+image: 04.jpg
+tags: [Work]
 ---
-StartupXYZ - Series B fintech company
-
-- Managed product development for mobile app with 500k+ active users
-- Reduced customer support tickets by 45% through improved UX design
-- Launched payment integration that increased revenue by $2M annually

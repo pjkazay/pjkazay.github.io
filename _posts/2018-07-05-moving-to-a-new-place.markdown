@@ -4,6 +4,7 @@ title:  Senior PM, Growth
 date:   2018-07-23 15:01:35 +0300
 image:  05.jpg
 tags:   Home
+date_range: Jul-'18
 ---
 TechCorp - High-growth SaaS startup
 

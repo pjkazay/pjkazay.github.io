@@ -32,7 +32,7 @@
   .post__author {
     margin-right: 10px;
     font-weight: 700;
-    
+
     .author-name {
       color: $gray;
       border-bottom: 1px solid transparent;
@@ -160,27 +160,26 @@
     }
 
     .post__nav__title {
-      margin-bottom: 20px;
-      font-size: 27px;
-      line-height: 37px;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      text-align: center;
-      
-      a {
-        display: inline-block;
-        max-width: 250px;
-        padding: 0 10px;
-        vertical-align: middle;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        color: $dark;
-        &:hover {
-          color: $black;
-        }
-      }
+    font-size: 24px;
+    line-height: 1.3;
+    margin-bottom: 8px;
+
+    a {
+      color: $dark;
     }
+
+    i {
+      color: $gray;
+      vertical-align: middle;
+    }
+  }
+
+  .post__nav__date-range {
+    font-size: 14px;
+    color: $gray;
+    margin: 0 0 8px 0;
+    font-weight: 500;
+  }
   }
 
   .prev {
@@ -201,7 +200,7 @@
 
   @media only screen and (max-width: $tablet) {
     flex-wrap: wrap;
-    
+
     .prev,
     .next {
       flex: 1 0 100%;

@@ -1,12 +1,9 @@
 ---
 layout: post
-title:  Associate Product Manager
-date:   2018-07-17 15:01:35 +0300
-image:  03.jpg
-tags:   Style
+title: Senior PM, Growth
+date: 2018-07-19 00:00:00 +0300
+date_range: May-'21
+description: 
+image: 05.jpg
+tags: [Work]
 ---
-MegaCorp - Fortune 500 technology company
-
-- Analyzed user data to identify key pain points and prioritize feature development
-- Collaborated with engineering teams to deliver 3 major product releases
-- Created product requirements documents and wireframes for new features
