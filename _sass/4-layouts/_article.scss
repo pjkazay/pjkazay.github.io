@@ -27,7 +27,7 @@
 
   .article__content {
     width: 60%;
-    padding: 50px;
+    padding: 20px;
     margin-left: -10%;
     z-index: 1;
     border-radius: 3px;
@@ -44,7 +44,7 @@
     .article__title {
       margin-bottom: 20px;
       font-size: 30px;
-      
+
       a {
         color: $dark;
         &:hover {
