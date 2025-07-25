@@ -46,7 +46,11 @@
               {% endif %}
             </div>
 
+            {% if post.tags contains 'job' %}
+            <a href="{{post.url | prepend: site.baseurl}}" class="read-more">More information <i class="ion ion-ios-arrow-forward"></i></a>
+            {% else %}
             <a href="{{post.url | prepend: site.baseurl}}" class="read-more">Keep Reading <i class="ion ion-ios-arrow-forward"></i></a>
+            {% endif %}
           </div>
 
         </div>
