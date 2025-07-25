@@ -2,7 +2,8 @@
 layout: post
 title: Senior PM, Product Infrastructure
 date: 2018-07-17 00:00:00 +0300
-date_range: Mar-'20
+start_date_range: Mar-'20
+end_date_range: May-'21
 description: 
 image: 04.jpg
 tags: [Work]

@@ -1,13 +1,10 @@
 ---
 layout: post
-title:  Senior PM, Growth
-date:   2018-07-23 15:01:35 +0300
-image:  05.jpg
-tags:   Home
-date_range: Jul-'18
+title: PM, Growth
+date: 2018-07-05 00:00:00 +0300
+start_date_range: Oct-'19
+end_date_range: Mar-'20
+description: 
+image: 02.jpg
+tags: [Work]
 ---
-TechCorp - High-growth SaaS startup
-
-- Led product roadmap for user acquisition features resulting in 40% growth in signups
-- Implemented A/B testing framework that improved conversion rates by 25%
-- Coordinated cross-functional team of 12 engineers and designers
