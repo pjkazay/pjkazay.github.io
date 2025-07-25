@@ -15,7 +15,7 @@ layout: default
 
 <div class="container">
 	<div class="row">
-	{% assign job_posts = site.posts | where: "tags", "job" %}
+	{% assign job_posts = site.posts | where_exp: "post", "post.tags contains 'job'" %}
 	{% if job_posts.size > 0 %}
 		{% for post in job_posts %}
 			{% include article-content.html %}
